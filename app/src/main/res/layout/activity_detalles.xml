@@ -1,0 +1,42 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_detalles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".Detalles">
+
+        <TextView
+            andorid:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Nombre del empleado"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Cargo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCompania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Compañía"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/lead_photo_1"/>
+
+    </LinearLayout>
